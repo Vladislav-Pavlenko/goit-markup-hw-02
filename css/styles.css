@@ -40,6 +40,11 @@ a {
   letter-spacing: 0.02em;
 }
 
+.header-menu-item > a:hover,
+.header-menu-item > a:focus {
+  color: #404bbf;
+}
+
 .header-list-item > a {
   color: #434455;
   font-size: 16px;
@@ -85,7 +90,7 @@ a {
   background-color: #404bbf;
 }
 
-.adventages-title {
+.advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -93,7 +98,7 @@ a {
   color: #2e2f42;
 }
 
-.adventages-item-name {
+.advantages-item-name {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -101,7 +106,7 @@ a {
   letter-spacing: 0.04em;
 }
 
-.adventages-item-text {
+.advantages-item-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -175,4 +180,8 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.span-footer {
+  color: #f4f4fd;
 }
